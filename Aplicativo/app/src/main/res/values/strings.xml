@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ganbita Games</string>
+    <string name="mensagem">O jogo estará disponivel dia 02/05/2017</string>
+    <string name="mensagem2">Obrigado por testa o jogo!</string>
+    <string name="mensagem3">Abra o Gambeta Games!</string>
+    <string name="vencedor">%s venceu</string>
+    <string name="velha">Deu Velha</string>
+    <string name="player">Jogador: %s</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_verde"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:src="@drawable/fat_cat"
+        android:layout_gravity="center"
+        android:layout_weight="0.12"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:background="@drawable/box_box"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="CALCURADORA IMC"
+        android:layout_width="316dp"
+        android:layout_height="68dp"
+        android:textAlignment="center"
+        android:paddingTop="17dp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

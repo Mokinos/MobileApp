@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vermelho"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placar"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:layout_gravity="center"
+
+        >
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:text="0"
+            android:id="@+id/tv_jogador"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="55sp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:textSize="10sp"
+            android:text=""
+            android:textStyle="bold"
+            android:layout_margin="85dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="2"
+            android:text="0"
+            android:id="@+id/tv_computador"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="55sp"
+            />
+
+    </GridLayout>
+
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/img_jogador"
+            android:layout_column="0"
+            android:src="@drawable/spock" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_column="1"
+            android:src="@drawable/versus" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/img_computador"
+            android:layout_column="2"
+            android:src="@drawable/largato"
+            />
+
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+
+        <Button
+            android:background="@drawable/bntpapel"
+            android:id="@+id/btn_papel"
+            android:layout_column="1"
+            android:layout_margin="10px"
+            />
+        <Button
+            android:background="@drawable/btnspock"
+            android:id="@+id/btn_spock"
+            android:layout_column="2"
+            android:layout_margin="10px"
+
+
+            />
+
+        <Button
+            android:background="@drawable/btnlargato"
+            android:id="@+id/btn_largato"
+            android:layout_column="0"
+            android:layout_margin="10px"
+            />
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:layout_gravity="center">
+
+
+
+        <Button
+            android:background="@drawable/btntesoura"
+            android:id="@+id/btn_tesoura"
+            android:layout_column="0"
+            android:layout_margin="10px"/>
+        <Button
+            android:background="@drawable/btnpedra"
+            android:id="@+id/btn_pedra"
+            android:layout_column="1"
+            android:layout_margin="10px"/>
+
+    </GridLayout>
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tv_nome"
+        android:fontFamily="casual"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
